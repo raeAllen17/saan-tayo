@@ -1,3 +1,6 @@
+@import "@fontsource/dm-sans/400.css";
+@import "@fontsource/dm-sans/500.css";
+@import "@fontsource/dm-sans/700.css";
 @import "tailwindcss";
 @theme inline {
   --color-brand: #2447b2;
@@ -202,7 +205,7 @@ button {
 .hero-art {
   position: relative;
   margin-top: -12px;
-  margin-bottom: -36px;
+  margin-bottom: -12px;
   min-width: 0;
 }
 .hero-art img {
@@ -258,6 +261,7 @@ button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  gap: 8px;
   font-weight: 700;
   min-height: 44px;
   white-space: nowrap;
@@ -267,11 +271,16 @@ button {
   background: #1c398f;
 }
 .clear-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: transparent;
   color: var(--brand);
   min-width: 44px;
   min-height: 44px;
-  font-size: 24px;
+}
+.lucide {
+  flex-shrink: 0;
 }
 .mobile-search-icon {
   display: none;
@@ -396,6 +405,7 @@ button {
   margin-top: 2px;
 }
 .card-arrow {
+  display: flex;
   color: var(--brand);
   flex-shrink: 0;
 }
@@ -468,7 +478,9 @@ button {
 }
 .site-footer > div:last-child a {
   color: var(--brand);
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   min-height: 44px;
   padding-top: 8px;
 }
@@ -504,6 +516,7 @@ button {
   color: var(--brand);
   display: inline-flex;
   align-items: center;
+  gap: 8px;
   min-height: 44px;
   font-size: 14px;
   margin-bottom: 28px;
@@ -660,7 +673,7 @@ button {
     min-height: 360px;
   }
   .hero-art {
-    margin-bottom: -60px;
+    margin-bottom: -24px;
   }
   .search-section {
     margin-top: 32px;
@@ -791,7 +804,6 @@ button {
     height: 44px;
     background: transparent;
     color: var(--ink);
-    font-size: 25px;
     flex-shrink: 0;
   }
   .main-nav {
@@ -852,6 +864,7 @@ button {
   }
   .search-icon svg {
     width: 18px;
+    height: 18px;
   }
   .search-submit {
     padding: 10px 12px;
@@ -866,7 +879,6 @@ button {
   }
   .clear-search {
     min-width: 32px;
-    font-size: 20px;
   }
   .catalog-section {
     padding-top: 20px;
@@ -944,6 +956,7 @@ button {
   }
   .card-arrow svg {
     width: 18px;
+    height: 18px;
   }
   .image-fallback {
     padding: 10px;

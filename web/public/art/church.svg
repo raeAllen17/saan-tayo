@@ -1,1 +1,115 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 420"><path fill="#F4C84B" d="M28 158 594 49 565 403H48Z"/><g fill="#F5F1E6" stroke="#2447B2" stroke-width="3"><path d="M125 390V247l128-91 126 91v143Z"/><path d="m107 249 146-110 145 110-16 12-129-94-130 94Z"/><path d="M367 390V173h129v217Z"/><path d="M356 173h151v18H356Zm16-28h119v28H372Zm13-52h93v52h-93Z"/><path d="M386 93q0-54 45-54t45 54Z"/><path d="M409 39V27h44v12Zm16-12V11h12v16ZM431 11V0m-10 5h20"/><path d="M226 390v-84q27-45 54 0v84Z"/><path d="M401 145v-28q10-22 20 0v28Zm42 0v-28q10-22 20 0v28Z"/><circle cx="253" cy="230" r="22"/><path d="M161 318v-28q12-24 24 0v28Zm160 0v-28q12-24 24 0v28Z"/><path d="M396 390v-80q35-48 70 0v80Z"/></g><g fill="#2447B2"><path d="M411 136v-20q0-13 7-13v33Zm40 0v-20q0-13 7-13v33ZM232 390v-82q21-35 42 0v82Zm174 0v-77q25-38 50 0v77Z"/><circle cx="253" cy="230" r="12"/><path d="M0 392h620v17H0Z"/></g><g fill="none" stroke="#2447B2" stroke-width="2"><path d="M134 275h70m99 0h64m-233 65h70m99 0h64m10-131h111m-111 12h111m-111 48h111m-111 12h111M150 390V266m49 124V232m108 158V233m48 157V266M250 147v-27m-10 10h20"/><path d="m75 390 4-51-23-18 18 1-26-41 26 11-8-38 27 31 5-36 13 39 25-20-12 38 23-5-26 28 5 61Zm448 0 8-75-24-30 22 4-15-39 25 18 9-49 17 45 29-20-9 35 27-5-25 28 30 2-31 31 10 55Z"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="420" viewBox="0 0 620 420" fill="none" role="img" aria-labelledby="church-title church-desc">
+  <title id="church-title">Brick church and tiered bell tower</title>
+  <desc id="church-desc">An original blue line illustration based on the supplied church photograph: an octagonal bell tower at left, layered cornices, arched openings, brick panels, a curved façade and a rose window above the entrance.</desc>
+  <defs>
+    <pattern id="brick" width="16" height="10" patternUnits="userSpaceOnUse">
+      <path d="M0 0H16M0 5H16M8 0V5M0 5V10M16 5V10" stroke="#2447B2" stroke-width=".7" opacity=".28"/>
+    </pattern>
+    <g id="blind-arch" stroke="#2447B2" stroke-width="1.4" stroke-linejoin="round">
+      <path fill="#F5F1E6" d="M0 52V14H4C4-5 30-5 30 14H34V52H27V15C27 1 7 1 7 15V52Z"/>
+      <path d="M-2 14H9M25 14H36M-2 18H9M25 18H36M-2 52H36"/>
+    </g>
+    <g id="bell-arch" stroke="#2447B2" stroke-width="1.4" stroke-linejoin="round">
+      <path fill="#F5F1E6" d="M0 52V18C0-6 36-6 36 18V52Z"/>
+      <path fill="#2447B2" d="M7 49V18C7 3 29 3 29 18V49Z"/>
+      <path stroke="#F5F1E6" d="M8 20H28M8 25H28M8 30H28"/>
+      <path fill="#F5F1E6" d="M13 43C16 39 14 35 18 35S20 39 23 43ZM18 33V35M17 46H19"/>
+      <path d="M-3 18H7M29 18H39M-3 22H7M29 22H39M-3 52H39"/>
+    </g>
+    <g id="facade-window" stroke="#2447B2" stroke-width="1.4" stroke-linejoin="round">
+      <path fill="#F5F1E6" d="M0 50V16C0-6 30-6 30 16V50Z"/>
+      <path fill="#2447B2" d="M6 46V16C6 2 24 2 24 16V46Z"/>
+      <path stroke="#F5F1E6" d="M15 7V46M6 25H24"/>
+      <path d="M-2 16H6M24 16H32M-2 20H6M24 20H32M-3 50H33"/>
+      <path fill="#F5F1E6" d="m12 1 3-5 3 5-3 5Z"/>
+    </g>
+    <g id="urn" fill="#F5F1E6" stroke="#2447B2" stroke-width="1.4" stroke-linejoin="round">
+      <path d="M-6 0H6L3-5C12-16 5-20 0-22-5-20-12-16-3-5ZM-5-5H5M-6 3H6"/>
+    </g>
+  </defs>
+
+  <!-- Retain the yellow editorial field and warm paper palette. -->
+  <path fill="#F4C84B" d="M28 158 594 49 565 403H48Z"/>
+  <g stroke="#2447B2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Façade: swept parapet, central crest and brick bays from the photograph. -->
+    <path fill="#F5F1E6" stroke-width="2.4" d="M250 389V224L287 204C307 228 328 239 352 218Q371 194 391 216L412 225V189H442V226L464 237Q484 246 498 238L555 279V389Z"/>
+    <path fill="url(#brick)" stroke-width="1.4" d="M272 382V234L287 223Q322 257 359 232Q376 212 391 231L417 240H442L464 250Q482 259 496 251L543 286V382Z"/>
+    <path fill="#F5F1E6" stroke-width="1.4" d="m250 224 37-20c20 24 41 35 65 14q19-24 39-2l21 9v-9l-19-10q-20-22-43 1c-20 21-39 9-61-15l-39 23Zm192 2 22 11q20 9 34 1l57 41 7-5-63-46q-13 13-35 2l-22-14Z"/>
+    <path stroke-width="1.4" d="m272 231 15-10q35 35 72 7 17-20 34-1l24 12m25 0 22 10q18 9 33 0l47 34"/>
+    <path fill="#F5F1E6" stroke-width="1.4" d="M409 226V190H417V226M436 226V190H444V226M405 190H448V184H405ZM410 182 426 174 443 182Z"/>
+    <path stroke-width="2" d="M426 173V157M420 162H432"/>
+    <path fill="#2447B2" stroke-width="1.4" d="M423 218V201Q427 194 431 201V218Z"/>
+    <use href="#urn" x="287" y="201"/>
+    <use href="#urn" x="552" y="275"/>
+    <g fill="#F5F1E6" stroke-width="1.4">
+      <path d="M275 388V239H285V388ZM341 388V256H353V388ZM482 388V266H494V388ZM537 388V286H550V388Z"/>
+      <path d="M273 239H287V245H273ZM338 254H356V260H338ZM479 264H497V270H479ZM534 284H553V290H534Z"/>
+      <path d="M272 378H288V388H272ZM338 378H356V388H338ZM479 378H497V388H479ZM534 378H553V388H534Z"/>
+    </g>
+    <!-- Rose window with radial tracery and the three arched upper openings. -->
+    <path fill="#F5F1E6" stroke-width="1.4" d="M399 265 421 242 443 265 421 288Z"/>
+    <circle cx="421" cy="265" r="16" fill="#2447B2" stroke-width="1.4"/>
+    <g stroke="#F5F1E6" stroke-width="1.4">
+      <circle cx="421" cy="265" r="10"/>
+      <circle cx="421" cy="265" r="4"/>
+      <path d="M421 250V261M421 269V280M406 265H417M425 265H436M410.4 254.4 418.2 262.2M423.8 267.8 431.6 275.6M410.4 275.6 418.2 267.8M423.8 262.2 431.6 254.4M415.3 251.1 419.5 261.3M422.5 268.7 426.7 278.9M407.1 259.3 417.3 263.5M424.7 266.5 434.9 270.7M407.1 270.7 417.3 266.5M424.7 263.5 434.9 259.3M415.3 278.9 419.5 268.7M422.5 261.3 426.7 251.1"/>
+    </g>
+    <use href="#facade-window" x="300" y="295"/>
+    <use href="#facade-window" x="504" y="309"/>
+    <use href="#facade-window" x="406" y="296"/>
+    <path fill="#F5F1E6" stroke-width="1.4" d="M257 345H349V351H257ZM352 347H487V353H352ZM494 349H555V355H494Z"/>
+    <!-- Brick entrance arch, recessed double door and short stone steps. -->
+    <path fill="#F5F1E6" stroke-width="1.4" d="M394 389V365C394 333 448 333 448 365V389H441V365C441 341 401 341 401 365V389Z"/>
+    <path fill="#2447B2" stroke-width="1.4" d="M401 389V365C401 341 441 341 441 365V389Z"/>
+    <path stroke="#F5F1E6" stroke-width="1.2" d="M421 346V389M406 368H416V383H406ZM426 368H436V383H426ZM407 361H435M411 349 421 361 431 349M418 373V376M424 373V376"/>
+    <path stroke-width="1.2" d="M393 365H401M395 355 402 358M400 347 406 352M410 341 413 348M421 339V346M432 341 429 348M442 347 436 352M447 355 440 358M441 365H449"/>
+    <path fill="#F5F1E6" stroke-width="1.4" d="M392 389H450V394H392ZM386 394H456V399H386Z"/>
+
+    <!-- Tapered octagonal tower in two planes, with four distinct levels. -->
+    <path fill="#F5F1E6" stroke-width="2.4" d="M73 387V303L81 294V223L89 214V146L97 137V77L129 56H209L239 78V138L247 147V215L255 224V295L263 304V387Z"/>
+    <path fill="#2447B2" stroke="none" opacity=".055" d="m209 56 30 22v60l8 9v68l8 9v71l8 9v83h-54Z"/>
+    <g fill="url(#brick)" stroke-width="1.4">
+      <path d="M132 78H207V135H132ZM124 157H215V211H124ZM116 232H223V291H116ZM108 313H231V381H108Z"/>
+      <path d="m103 85 22-11v59l-22 10Zm-8 79 22-10v58l-22 10Zm-8 76 22-10v62l-22 10Zm-8 81 22-9v69H79Z"/>
+      <path d="m216 76 17 12v52l-17-8Zm8 80 17 12v51l-17-8Zm8 77 17 12v53l-17-8Zm8 81 17 12v55h-17Z"/>
+    </g>
+    <use href="#bell-arch" transform="translate(151 80) scale(1 .98)"/>
+    <use href="#bell-arch" transform="matrix(.44 -.22 0 .98 107 91)"/>
+    <use href="#bell-arch" transform="matrix(.4 .24 0 .94 216 86)"/>
+    <use href="#blind-arch" transform="translate(152 158)"/>
+    <use href="#blind-arch" transform="matrix(.5 -.2 0 1 95 169)"/>
+    <use href="#blind-arch" transform="matrix(.46 .24 0 .98 225 163)"/>
+    <use href="#blind-arch" transform="translate(148 236) scale(1.25 1.05)"/>
+    <use href="#blind-arch" transform="matrix(.58 -.22 0 1.05 87 246)"/>
+    <use href="#bell-arch" transform="matrix(.48 .24 0 1.02 233 243)"/>
+    <use href="#blind-arch" transform="translate(146 319) scale(1.35 1.18)"/>
+    <use href="#blind-arch" transform="matrix(.64 -.22 0 1.18 79 330)"/>
+    <use href="#bell-arch" transform="matrix(.5 .24 0 1.12 241 326)"/>
+    <!-- Pilasters and continuous, projecting cornices. -->
+    <g fill="#F5F1E6" stroke-width="1.4">
+      <path d="M124 76H133V136H124ZM206 76H215V136H206ZM116 155H125V212H116ZM214 155H224V212H214ZM108 230H118V292H108ZM222 230H232V292H222ZM100 311H111V382H100ZM230 311H241V382H230Z"/>
+      <path d="m91 73 33-20h91l30 22-5 7-27-18h-87L94 83Z"/>
+      <path d="m94 83 32-19h87l27 18v7l-28-17h-85L94 91Z"/>
+      <path d="m89 138 35-12h91l32 16-5 9-28-14h-88l-34 12Z"/>
+      <path d="m92 149 34-12h88l28 14v7l-29-13h-86l-35 12Z"/>
+      <path d="m81 215 35-11h108l31 17-5 9-28-15H118l-34 12Z"/>
+      <path d="m84 227 34-12h104l28 15v7l-29-14H119l-35 11Z"/>
+      <path d="m73 296 35-11h124l31 17-5 9-28-15H110l-34 12Z"/>
+      <path d="m76 308 34-12h120l28 15v7l-29-14H111l-35 11Z"/>
+      <path d="m68 383 32-9h141l28 14v8H72Z"/>
+      <path d="m72 396 29-9h139l25 12H72Z"/>
+    </g>
+    <!-- Open parapet, corner pinnacles and stepped crown under the cross. -->
+    <g fill="#F5F1E6" stroke-width="1.4">
+      <path d="M128 53V43H210V53ZM135 45 140 51 145 45 150 51 155 45 160 51 165 45 170 51 175 45 180 51 185 45 190 51 195 45 200 51 205 45"/>
+      <path d="m144 43 9-13h32l12 13ZM150 30V24L169 17 190 25V31L170 24Z"/>
+      <path d="M158 23V17L169 12 181 17V23L169 19Z"/>
+      <path d="M120 54V44L124 35 129 44V54ZM208 54V44L213 35 218 44V57Z"/>
+    </g>
+    <path stroke-width="2" d="M169 14V4M163 8H175"/>
+    <path stroke-width="1.4" d="m97 79 26-15m92 0 20 14M95 143l29-10m92 0 26 13M86 221l30-10m109 0 25 14M79 302l29-10m125 0 25 14"/>
+    <!-- Quiet baseline, with no added foreground ornament. -->
+    <path stroke-width="2.4" d="M49 400H577"/>
+    <path stroke-width="1.2" d="M64 406H348M466 406H557"/>
+  </g>
+</svg>

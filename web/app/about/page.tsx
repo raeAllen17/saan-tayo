@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { ArrowRight } from "lucide-react";
 export const metadata: Metadata = { title: "About the directory" };
 export default function About() {
   return (
@@ -31,7 +32,8 @@ export default function About() {
         landmark.
       </p>
       <Link href="/#restaurants" className="primary-button">
-        Explore the demo restaurants →
+        Explore the demo restaurants
+        <ArrowRight size={22} strokeWidth={1.8} aria-hidden="true" />
       </Link>
     </main>
   );

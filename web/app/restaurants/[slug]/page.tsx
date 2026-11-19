@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { ArrowLeft } from "lucide-react";
 import { notFound } from "next/navigation";
 import { formatPrice, getRestaurant, getRestaurants } from "@/lib/restaurants";
 type Props = {
@@ -33,7 +34,8 @@ export default async function RestaurantPage({ params, searchParams }: Props) {
         className="back-link"
         href={`/${back.size ? "?" + back : ""}#restaurants`}
       >
-        ← Back to restaurants
+        <ArrowLeft size={22} strokeWidth={1.8} aria-hidden="true" />
+        Back to restaurants
       </Link>
       <section className="restaurant-intro">
         <div>

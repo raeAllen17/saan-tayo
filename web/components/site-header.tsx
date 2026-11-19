@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useRef, useState } from "react";
+import { Menu, X } from "lucide-react";
 export function SiteHeader() {
   const [open, setOpen] = useState(false);
   const button = useRef<HTMLButtonElement>(null);
@@ -36,7 +37,11 @@ export function SiteHeader() {
         onClick={() => setOpen(!open)}
         aria-label={open ? "Close navigation" : "Open navigation"}
       >
-        <span aria-hidden="true">{open ? "×" : "☰"}</span>
+        {open ? (
+          <X size={22} strokeWidth={1.8} aria-hidden="true" />
+        ) : (
+          <Menu size={22} strokeWidth={1.8} aria-hidden="true" />
+        )}
       </button>
       <nav
         id="main-nav"

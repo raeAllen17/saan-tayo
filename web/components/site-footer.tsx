@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ArrowUpRight } from "lucide-react";
 export function SiteFooter() {
   return (
     <footer className="site-footer container">
@@ -11,7 +12,8 @@ export function SiteFooter() {
       <div>
         <p>Made for discovering Balanga.</p>
         <Link href="/about">
-          About this demo <span aria-hidden="true">↗</span>
+          About this demo
+          <ArrowUpRight size={22} strokeWidth={1.8} aria-hidden="true" />
         </Link>
       </div>
     </footer>

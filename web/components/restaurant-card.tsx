@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { Restaurant } from "@/lib/restaurants";
-import { ArrowIcon } from "./icons";
+import { ChevronRight } from "lucide-react";
 export function RestaurantCard({
   restaurant: r,
   returnQuery = "",
@@ -45,7 +45,7 @@ export function RestaurantCard({
           <p className="card-location">Balanga City</p>
         </div>
         <span className="card-arrow">
-          <ArrowIcon />
+          <ChevronRight size={22} strokeWidth={1.8} aria-hidden="true" />
         </span>
       </div>
     </Link>

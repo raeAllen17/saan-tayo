@@ -3,7 +3,7 @@ import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { useTransition } from "react";
 import { filterRestaurants, type Restaurant } from "@/lib/restaurants";
 import { RestaurantCard } from "./restaurant-card";
-import { SearchIcon } from "./icons";
+import { Search, X } from "lucide-react";
 export function Catalog({ restaurants }: { restaurants: Restaurant[] }) {
   const params = useSearchParams();
   const router = useRouter();
@@ -46,7 +46,7 @@ export function Catalog({ restaurants }: { restaurants: Restaurant[] }) {
             Search restaurants, cuisines, or menu items
           </label>
           <span className="search-icon">
-            <SearchIcon />
+            <Search size={22} strokeWidth={1.8} aria-hidden="true" />
           </span>
           <input
             key={query}
@@ -65,13 +65,13 @@ export function Catalog({ restaurants }: { restaurants: Restaurant[] }) {
               }}
               aria-label="Clear search"
             >
-              ×
+              <X size={22} strokeWidth={1.8} aria-hidden="true" />
             </button>
           )}
           <button className="search-submit" type="submit" aria-label="Search">
             <span>Search</span>
             <span className="mobile-search-icon">
-              <SearchIcon />
+              <Search size={22} strokeWidth={1.8} aria-hidden="true" />
             </span>
           </button>
         </form>

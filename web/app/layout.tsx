@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import "@fontsource/archivo/800.css";
 import "@fontsource/archivo/900.css";
-import "@fontsource/dm-sans/400.css";
-import "@fontsource/dm-sans/500.css";
-import "@fontsource/dm-sans/700.css";
 import "@fontsource/space-grotesk/700.css";
 import "./globals.css";
 import { SiteHeader } from "@/components/site-header";
